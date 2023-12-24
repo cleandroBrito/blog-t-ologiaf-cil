@@ -1,0 +1,122 @@
+/* limpar as formatações padrões */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;500;600&family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    background-color: #f2d680;
+}
+/* layout */
+#cabecalho{
+    height: 100px;
+    text-align: center;
+    padding: 15px;
+    background-color: #eb9c4d;
+}
+#logo{
+    color: #697060;
+}
+.facil{
+    color: #fff;
+}
+#logo, #menu{
+    padding: 10px;
+}
+
+#menu{
+    margin-left: 14px;
+}
+#pricipal{
+    width: 920px;
+    padding: 15px;
+    display: inline-block;
+    margin-left: 183px;
+    background-color: #f3ffcf;
+}
+
+
+/* formatação dos links */
+#cabecalho a:link, #cabecalho a:visited {
+    color: #fff;
+    padding: 10px 12px;
+}
+#cabecalho a:hover{
+    color: #eb9c4d;
+    background-color: #fff;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    font-family: Poppins;
+}
+a:link, a:visited {
+    color: #eb9c4d;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* formatação das postagens */
+#postagens{
+    width: 660px;
+    float: left;
+}
+
+#postagem-lateral{
+    width: 240px;
+    float: right;
+}
+.conteudo-lateral{
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+h2{
+    margin-top: 10px;
+    color: #697060;
+}
+
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3{
+    font-family: Montserrat;
+}
+
+p, li{
+    font-family: Roboto Condensed;
+}
+ul{
+    margin-left: 20px;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    color: #eb9c4d;
+}
+/* parte final */
+#rodape{
+    background: #fff;
+    clear: both;
+    text-align: center;
+    padding: 15px; 
+    width: 920px;
+    margin-left: 183px;
+}
